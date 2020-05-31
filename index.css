@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+canvas { 
+    background-color: black;
+    /* background: black; */
+     background-image: url(https://media.istockphoto.com/vectors/futuristic-coronavirus-covid19-web-banner-template-with-glowing-low-vector-id1213581207?k=6&m=1213581207&s=170667a&w=0&h=mH1aMSSxyutabBeIgLihPaPpiW8AWTlF4lwjvc-BrwE=); 
+    margin-left: 100px;
+      /* background-image: url(https://luria.house.gov/sites/luria.house.gov/files/styles/congress_featured_image/public/featured_image/home-banner.jpg?itok=E7bk1Wk_); */
+    /* opacity: 0.5; */
+    z-index: 1;
+     }
+#bullet{
+  transform: rotate(90deg);
+}
