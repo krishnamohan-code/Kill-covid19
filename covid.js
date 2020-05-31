@@ -9,7 +9,7 @@ console.log(ctx);
 var spawnLineX = 25;
 
 // spawn a new virus every 1000ms
-var virusRate = 1000;
+var virusRate = 500;
 
 // set how fast the virus will move
 var virusSpeed = 1;  //speed of virus
