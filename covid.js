@@ -126,7 +126,7 @@ function animate() {
         ctx.drawImage(bull,bullet.x,bullet.y);
        }
     }
-       
+    shoot()
     
   //SCORE
    ctx.font="30px Comic Sans MS";
