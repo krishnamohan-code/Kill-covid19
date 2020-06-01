@@ -1,0 +1,72 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <link rel="stylesheet" href="kill-covid19.css">
+  <title>  KILL CORONA-VIRUS</title>
+</head>
+
+<body onload="BodyLoaded()">
+
+  <div id="L_Parent">
+    <div id="Load"></div>
+    <div id="LoadingData">Loading...</div>
+  </div>
+
+
+  <div id="MainMenu">
+    <div id="Transparent"><br/><br/><br/><br/><br/><br/><b>
+      Get Ready....</b><br/><span style="font-size:14;">To Kill virus</span><br/><br/>
+      <button id="Start" onclick="PlayNow()">Play Now</button>
+    </div>
+    
+  </div>
+
+
+
+  <div id="PlaygroundParent" onclick="Shoot()">
+    <div id="MessageParent">
+      <div id="Message">
+        <div id="Comment">Fabulous!!</div>
+        <br/><br/>
+        <div id="ScoreText">Score : 1900</div>
+        <div id="HighScore">Personal Best : 2500</div>
+        <br/>
+        <button id="Restart">Play Again</button>
+
+      </div>
+    </div>
+
+    <div id="Score">Score: 0</div>
+    <!-- <div id="Right">
+       <img src="https://image.ibb.co/mWQtjb/Button_Arrow_Up_Sprite.png" height="30" width="30" draggable="false" />
+    </div> -->
+       <button id="Right">Right</button>
+    <!-- <div id="Left">
+       <img src="https://image.ibb.co/mWQtjb/Button_Arrow_Up_Sprite.png" height="30" width="30" draggable="false" />
+    </div> -->
+    <button id="Left">Left</button>
+    <div id="PlayerParent">
+      <img id="Player" src="https://image.ibb.co/ksXyjb/373aff2007f34019b7534d6757d1b838.png" height="75" width="45" draggable="false" />
+
+      <img id="Bullet" src="https://cdn2.vectorstock.com/i/1000x1000/30/21/realistic-3d-white-and-red-medical-pill-vector-21223021.jpg" height="30" width="15" />
+      <div id="CollisionDetector"></div>
+    </div>
+
+
+
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+   <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+    <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+   <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+   <img class="virus" src="https://i.ibb.co/McZ36tZ/virus.png" height="30" width="30" />
+
+  </div>
+</body>
+  <script src="kill-covid19.js"></script>
+</html>

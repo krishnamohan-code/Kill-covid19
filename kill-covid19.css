@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* background: url("https://static.politico.com/dims4/default/aef41b7/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2Fb6%2F64%2Fb13e1e86467fa4233784ed18bb64%2Fpolitico-friday-5-color.jpg"); */
+    /* background-repeat: no-repeat; */
+    background: url(https://images.yourstory.com/cs/2/dc9aa1302d6c11e9aa979329348d4c3e/womenwarriors-1586078844133-1586171012206-1587712391806.png?fm=png&auto=format);
+}
+#PlaygroundParent
+{
+    border:1px solid black;
+    height:100%;
+    width:100%;  
+    position:fixed; 
+    top:0%; 
+    bottom:0%;
+    left:0%;
+    right:0%; 
+    margin:auto;
+    overflow: hidden;
+    background: url("https://media.istockphoto.com/vectors/futuristic-coronavirus-covid19-web-banner-template-with-glowing-low-vector-id1213581207?k=6&m=1213581207&s=170667a&w=0&h=mH1aMSSxyutabBeIgLihPaPpiW8AWTlF4lwjvc-BrwE=") 100% 100%;
+
+    display: none;
+}
+#Bullet{
+    color:red;
+}
+#PlayerParent
+{
+
+    position: absolute;
+    left: 125;
+    bottom:80;
+}
+
+
+.virus
+{
+    position: absolute;
+    top:50;
+    left:90;
+}
+
+
+#Right,#Left
+{
+    height:70;
+    width: 70;
+    position: absolute;
+    right: 0;
+    top: 500px;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.5;
+}
+#Right img,#Left img
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top:0;
+    margin: auto;
+}
+#Left
+{
+      right: 100px;
+   
+}
+
+#Right:hover,#Left:hover
+{
+    cursor: pointer;
+    opacity: 0.7;
+}
+#Bullet
+{
+    position: absolute;
+    top:-25;
+    left:17;
+    margin: auto;
+    display: none;
+
+}
+#Player
+{
+    position: absolute;
+}
+
+#Score
+{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    position: absolute;
+    right:35%;
+    top: 30%;
+}
+
+#CollisionDetector
+{
+    height: 55;
+    width: 35;
+    position: absolute; 
+    top: 8;
+    left:5;
+}
+
+
+#Message
+{
+    height:170;
+    width: 200;
+    box-shadow: 1px 0 6px 2px red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15;
+    position: fixed;
+    top:-500;
+    left:0;
+    right:0;
+    margin: auto;
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQaFEX475UWKXFwrN3w0nmrQMr376QubTkzMY7lA-UOsnLN3UyJ&usqp=CAU");
+
+    transition: top 500ms linear;
+    border-radius: 12px;
+    
+    
+}
+#Comment
+{
+    background-color: #FF6B6B;
+    height: 30;
+    width: 100%;
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+    font-size: 15;
+    color:yellow;
+    line-height: 28px; 
+}
+
+#Restart
+{
+    background: #5EB962;
+    border:none;
+    color:wheat;
+    height:30;
+    border-radius: 5px;
+    box-shadow: 1px 0 3px 1px rgba(0,0,0,0.5);
+    cursor: pointer;
+
+}
+
+#Restart:hover
+{
+    background: #70BD73;
+}
+
+#Restart:focus
+{
+    outline: none;
+    
+}
+#MessageParent
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+
+
+}
+
+
+
+#L_Parent
+{
+  height:40px;
+  width: 40px;
+
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  margin: auto;
+  
+
+
+}
+#Load
+{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    border-top-color: #74678A;
+    background-clip: content-box;
+}
+
+#LoadingData
+{
+  height: 30px;
+  width: 30px;
+  font-size: 12;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  top: 20%;
+  left: 0%;
+  right: 0%;
+  margin: auto;
+}
+
+
+#Start
+{
+    height:30;
+    width: 80;
+    border:none;
+    background: #A1C2D6;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#Start:hover
+{
+    background:#DEECF5;
+}
+#Start:focus
+{
+    outline: none;
+}
+
+
+#MainMenu
+{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin: auto; 
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    text-align: center;
+    border-radius:50px;
+    box-shadow: 0 3px 14px 1px rgba(0, 0, 0, 1);
+
+    /* background: url("https://cloudinary.hbscdn.org/image/upload/s--wJNL36Fu--/q_auto,c_fill,h_1296,w_2800,/v20071006/1A28265F53690B2B28472F0C4B4CF1F1.jpg");  background-size: 100% 100%; */
+
+    display: none;
+
+   
+}
+#Transparent
+{
+    height: 100%;
+    width: 100%;
+    border-radius:50px;
+    background: rgba(0,0,0,0.6);
+}
+#HighScore,#ScoreText{
+    color: azure;
+}
